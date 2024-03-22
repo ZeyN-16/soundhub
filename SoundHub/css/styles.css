@@ -1,0 +1,197 @@
+header{
+    background-color: black;
+    height: 65px;
+}
+
+body {
+    margin: 150;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: black;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo img {
+    width: 65px;
+    height: auto;
+    padding-top: 5px;
+    padding-left: 30px;
+    align-content: flex-start;
+}
+.account img{
+    width: 50px;
+}
+
+.search-bar {
+    flex: 1;
+    margin: 0 20px;
+    justify-content: flex-end;
+}
+
+.search-form {
+    background-color: #fff;
+    border-radius: 20px;
+    display: flex;
+    overflow: hidden;
+    max-width: 300px;
+    margin-left: 1135px;
+}
+
+.search-form input[type="text"] {
+    border: none;
+    outline: none;
+    flex: 1;
+    padding: 10px;
+    border-radius: 20px 0 0 20px;
+}
+
+.search-form button[type="submit"] {
+    background-color: grey;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 0 20px 20px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-form button[type="submit"]:hover {
+    background-color: black;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.menu {
+    background-color: #f4f4f4;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.bouton {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 20px;
+}
+
+.separator {
+    height: 20px;
+    width: 1px;
+    background-color: #fff;
+    margin: 0 5px; 
+}
+
+.article-1{
+    margin-left: -56px;
+    justify-content: end;
+    padding-bottom: 250px;
+}
+
+.bouton-connexion, .bouton-inscription {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: transparent;
+    color: black;
+    border:  2px solid white;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 10px;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: grey;
+    justify-content: flex-end;
+}
+.bouton-inscription{
+    background-color: #fff;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.column {
+    width: calc(33.33% - 20px);
+    margin-right: 20px;
+}
+
+.column:last-child {
+    margin-right: 0;
+}
+
+h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+p, ul {
+    margin-bottom: 20px;
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+.icon-insta{
+    width: 60px;
+    margin-left: -15px;
+    margin-bottom: 10px;
+}
+
+.icon-tiktok{
+    width: 50px;
+    padding-right: 15px;
+    margin-bottom: 15px;
+}
+
+.icon-mail{
+    width: 45px;
+    margin-left: -50px;
+    margin-top: -150px;
+}
